@@ -45,7 +45,7 @@ body {
 
 .img {
     position: relative;
-    width: 650px;
+    width: 700px;
     height: 500px;
     object-fit: cover;
     opacity: .7;
@@ -61,8 +61,8 @@ body {
 
 .parrafo {
     position: absolute;
-    top: 64%;
-    left: 31%;
+    top: 60%;
+    left: 33%;
     transform: translate(-50%, -50%);
     color: #faedcd;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
@@ -72,15 +72,16 @@ body {
 .descripcion {
     font-size: 1.7em;
     line-height: 1.7;
-    letter-spacing: 1mm;
-    width: 530px;
+    letter-spacing: 1.5mm;
+    width: 590px;
 
 }
 
 .crear {
-    margin-top: 60px;
-    font-size: 1.8em;
-    width: 490px;
+    margin-top: 80px;
+    letter-spacing: 1.2mm;
+    font-size: 1.6em;
+    width: 660px;
 }
 
 .formulario  {
