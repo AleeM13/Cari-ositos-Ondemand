@@ -30,6 +30,11 @@ body {
 .navbar a {
     font-size: 1.6em;
     color: #976B59;
+    transition: all .2s;
+}
+
+.navbar a:hover {
+    font-size: 1.8em;
 }
 
 .container {
@@ -119,4 +124,11 @@ body {
     margin-top: 30px;
     background-color: #75CCD9;
     cursor: pointer;
+    transition: all .2s;
+}
+
+.boton button:hover {
+    width: 180px;
+    height: 50px;
+    font-size: 1.2em;
 }
