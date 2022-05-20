@@ -10,7 +10,6 @@ body {
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
     opacity: .4;
     z-index: 5;
 }
@@ -47,7 +46,6 @@ body {
     position: relative;
     width: 700px;
     height: 500px;
-    object-fit: cover;
     opacity: .7;
     border-radius: 25px;
     z-index: 10;
@@ -133,3 +131,107 @@ body {
     height: 50px;
     font-size: 1.2em;
 }
+
+/* @media (max-width: 420px) {
+    .fondo img{
+        position: absolute;
+        width: 100vw;
+        height: 155vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: .4;
+        z-index: 5;
+    }
+    
+    .navbar {
+        padding: 0 20px;
+    }
+    
+    .navbar img {
+        width: 70px;
+    }
+    
+    .navbar a {
+        font-size: 1em;
+    }
+    
+    .navbar a:hover {
+        font-size: 1.1em;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 60px 0;
+    }
+    
+    .img {
+        width: 310px;
+        height: 500px;
+    }
+    
+    .img img {
+        border-radius: 20px;
+        object-fit: cover;
+    }
+    
+    .parrafo {
+        position: absolute;
+        top: 60%;
+        left: 51%;
+        transform: translate(-50%, -50%);
+        color: #faedcd;
+        text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+        z-index: 15;
+    }
+    
+    .descripcion {
+        font-size: 1.2em;
+        line-height: 1.7;
+        letter-spacing: 1.5mm;
+        width: 270px;
+        text-align: center;
+    }
+    
+    .crear {
+        margin-top: 60px;
+        letter-spacing: 1.2mm;
+        font-size: 1.2em;
+        line-height: 1.4;
+        text-align: center;
+        width: 280px;
+    }
+    
+    .formulario form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 70px;
+    }
+    
+    .formulario form input {
+        width: 260px;
+        height: 30px;
+        margin: 25px;
+        font-size: 1em;
+        letter-spacing: .5mm;
+    }
+    
+    .formulario form input::placeholder {
+        font-size: 1.1em;
+    }
+    
+    .boton button {
+        font-size: 1em;
+        width: 140px;
+        height: 35px;
+        margin-top: 40px;
+    }
+    
+    .boton button:hover {
+        width: 150px;
+        height: 40px;
+        font-size: 1.2em;
+    }
+} */
