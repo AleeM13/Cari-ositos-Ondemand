@@ -10,7 +10,7 @@ body {
     height: 100vh;
     background-repeat: no-repeat;
     opacity: .4;
-    z-index: 5;
+    z-index: 0;
 }
 
 .navbar {
@@ -135,6 +135,7 @@ body {
 }
 
 footer {
+    position: relative;
     background-color: #faedcd;
     padding: 25px 0;
     display: flex;
@@ -194,6 +195,7 @@ footer .links {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+        align-items: center;
         margin: 40px 10px;
     }
     
