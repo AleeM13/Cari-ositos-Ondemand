@@ -175,6 +175,10 @@ footer .links {
 }
 
 @media (max-width: 420px) {
+    .fondo {
+        object-fit: cover;
+    }
+
     .navbar {
         padding: 0 10px;
     }
